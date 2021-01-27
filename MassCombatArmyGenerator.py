@@ -2,18 +2,6 @@ import pandas as pd
 import random as rd
 import numpy as np
 
-# this class presently does not do anything
-class element:
-
-    def __init__(self, name, TS, SupTS, classes, supclasses, traits, cost):
-        self.name = name
-        self.TS = TS
-        self.SupTS = SupTS
-        self.classes = classes
-        self.supclasses = supclasses
-        self.traits = traits
-        self.cost = cost
-
 # create a .csv file with the requisite columns, and set it to the used .csv
 def NewArmy():
     try: 
